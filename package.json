@@ -1,0 +1,64 @@
+{
+  "name": "GIGARadar AI Agent",
+  "version": "1.6.0",
+  "description": "Telegram AI Agent for Sei ecosystem that delivers market recaps, news, and signals with a shitpost meme persona.",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "tsx -r dotenv/config src/bot.ts",
+    "dev": "tsx watch src/bot.ts",
+    "create-your-plugin": "tsx scripts/create-plugin.ts",
+    "test": "tsx test/test.ts"
+  },
+  "keywords": [
+    "sei",
+    "sei-agent-kit",
+    "ai",
+    "telegram-bot",
+    "cambrian"
+  ],
+  "author": "EVM CREW",
+  "license": "MIT",
+  "dependencies": {
+    "@covalenthq/client-sdk": "^2.3.0",
+    "@google/generative-ai": "^0.24.1",
+    "@sei-js/evm": "^2.0.0",
+    "@sei-js/mcp-server": "^0.2.1",
+    "@supabase/supabase-js": "^2.50.5",
+    "ai": "^4.1.44",
+    "axios": "^1.10.0",
+    "chalk": "^5.4.1",
+    "chart.js": "^4.4.8",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.13.5",
+    "he": "^1.2.0",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^3.2.1",
+    "rss-parser": "^3.13.0",
+    "telegraf": "^4.16.3",
+    "viem": "^2.23.3",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.6",
+    "@types/chai": "^5.0.1",
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^22.10.2",
+    "@types/node-telegram-bot-api": "^0.64.9",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  }
+}
