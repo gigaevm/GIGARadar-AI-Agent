@@ -23,7 +23,14 @@ GigaRadar is an open-source, modular Telegram bot that combines **real-time cryp
 
 - **Customizable Token Whitelist**  
   - Track selected meme tokens in `memeTokens.ts`  
-  - Flexible configuration for token monitoring  
+  - Flexible configuration for token monitoring
+ 
+- **Long term Memory on Autonomus**
+  - We use Supabase for the long-term memory of GIGARadar.
+ 
+- **GIGARadar have Mood**
+  - AI Agent have mood? Yes we have for better post and unique feature.
+
 
 ---
 
@@ -67,7 +74,16 @@ Examples:
 tokenAnalyzer/ for custom token insights
 walletReporter/ for wallet-level alerts
 
+```
+
 We have already written some upcoming features, which can be continued by the community.
+
+Problem solved = Traders no longer need to open DEX or explorer to check important information. At GIGARadar, we simplify it all in a chat room.
+
+You can develop this AI agent into an AI agent on Twitter.
+
+There are no limits to adding features. You can easily add any feature you want!
+
 
 
 
